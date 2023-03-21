@@ -442,3 +442,154 @@
         height: 104px;
     }
 }
+
+
+ /* Product */
+
+ @media screen and (min-width:320px) {
+    #product-hero{
+        background-color: brown;
+        height: 1251px;
+        align-items: center;
+    }
+
+
+    #title-product{
+        height: 219px;
+        background-color: #E09026;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+
+    #text-product{
+        height: 115px;
+        background-color: #E09026;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        padding: 30px;
+    }
+
+    #product-image{
+        height: 599px;
+        margin-bottom: 70px;
+    }
+
+    #product-details{
+        height: 2600px;
+        background-color: #208281;
+        align-items: center;
+    }
+
+    #product-details-box-1{
+        height: 255px;
+    }
+
+    #product-details-box-2{
+        height: 1732px;
+    }
+ }
+
+ @media screen and (min-width:768px) {
+    #product-hero{
+        height: 768px;
+    }
+
+    .product-box{
+        height: 478px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #title-product{
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        width: 57%;
+    }
+
+    #text-product{
+        height: 114px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #product-image{
+        height: 478px;
+        margin-bottom: 0px;
+    }
+
+    #product-details{
+        height: 2315px;
+
+    }
+
+    #product-details-box-1{
+        height: 505px;
+    }
+
+    #product-details-box-2{
+        height: 1073px;
+    }
+ }
+
+ @media screen and (min-width:1200px) {
+    #product-hero{
+        height: 800px;
+    }
+
+    .product-box{
+        height: 505px;
+    }
+
+    #title-product{
+        height: 282px;
+    }
+
+    #text-product{
+        height: 77px;
+    }
+
+    #product-image{
+        height: 505px;
+    }
+
+    #product-details{
+        height: 2333px;
+    }
+ }
+ @media screen and (min-width:1920px) {
+    #product-hero{
+        height: 950px;
+    }
+
+    .product-box{
+        height: 600px;
+    }
+
+    #title-product{
+        height: 375px;
+    }
+
+    #text-product{
+        height: 128px;
+    }
+
+    #product-image{
+        height: 600px;
+    }
+
+    #product-details{
+        height: 3056px;
+    }
+
+    #product-details-box-1{
+        height: 859px;
+    }
+
+    #product-details-box-2{
+        height: 1274px;
+    }
+}
