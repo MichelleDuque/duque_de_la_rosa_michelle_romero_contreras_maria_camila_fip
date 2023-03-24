@@ -586,7 +586,7 @@
     }
 
     #product-details-box-2{
-        height: 1073px;
+        height: 700px;
     }
  }
 
@@ -647,4 +647,125 @@
     #product-details-box-2{
         height: 1274px;
     }
+}
+
+
+/* * lightbox rules here */ 
+
+
+#carol { background-position: -150px 0; }
+#clint { background-position: -300px 0; }
+#hulk { background-position: -450px 0; }
+#thor { background-position: -600px 0; }
+#widow { background-position: -750px 0; }
+
+.sprite:hover { background-position-y: -150px !important; }
+
+.lightbox { 
+    width: 100vw; /* vw = viewport width => screen width */
+    height: 100vh; /* vh = viewport height => screen height */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    /* background-image: url('../images/aging_qb1ogf_c_scale\,w_1200.jpg');
+    background-repeat: no-repeat; */
+
+    background-size: 80vh; /* 55% of the viewport height */
+    background-position: bottom 130px left 30px;
+
+    z-index: 5000;
+
+    display: none;
+}
+
+#lightbox2 { background-image: url('../images/mashing_li03xc_c_scale\,w_1200.jpg'); }
+#lightbox3 { background-image: url('../images/malting1_afsl6d_c_scale\,w_1200.jpg'); }
+#lightbox4 { background-image: url('../images/fermentation_xwpghk_c_scale\,w_1200.jpg'); }
+#lightbox5 { background-image: url('../images/boiling_olifpr_c_scale\,w_1200.jpg'); }
+#lightbox6 { background-image: url('../images/aging_qb1ogf_c_scale\,w_1200.jpg'); }
+
+#photo1 #lightbox {
+    background-image: url('../images/mashing_li03xc_c_scale\,w_1200.jpg');
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: red; }
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading { text-align: left; }
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+}
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target { display: block; }
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+} 
+
+
+
+#mashing_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#beer_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#malting_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+
+#fermetation_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#boiling_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#aging_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#imageprocess{
+    width: 50%;
 }
