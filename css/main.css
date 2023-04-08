@@ -171,7 +171,7 @@
     /* 5. History */
 
     #history{
-        background-color: brown;
+        background-color: #F2F2F2;
         height: 977px;
         align-items: center;
     }
@@ -180,6 +180,9 @@
     }
     #history-image{
         height: 299px;
+        background-image: url(../images1/mobile\ 3.beer\ ad\ 2\ home\ page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #text-history{
         height: 215px;
@@ -294,14 +297,17 @@
     /* 4. History */
 
     #history{
-        background-color: brown;
+        background-color: #F2F2F2;
         height: 1200px;
     }
     #history-title{
         height: 45px;
     }
     #history-image{
-        height: 389px;
+        height: 530px;
+        background-image: url(../images1/768\ \ 3.beer\ ad\ 2\ home\ page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #text-history{
         height: 341px;
@@ -491,7 +497,7 @@
     /* 5. History */
 
     #history{
-        background-color: brown;
+        background-color: #F2F2F2;
         height: 891px;
     }
     #history-title{
@@ -499,6 +505,9 @@
     }
     #history-image{
         height: 548px;
+        background-image: url(../images1/1200\ 3.beer_ad_2_homePage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #text-history{
         height: 409px;
@@ -702,14 +711,17 @@
 
     /* 3. History */
     #history{
-        background-color: brown;
+        background-color: #F2F2F2;
         height: 1086px;
     }
     #history-title{
         height: 112px;
     }
     #history-image{
-        height: 548px;
+        height: 813px;
+        background-image: url(../images1/1920\ 3.beerad2home\ page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #text-history{
         height: 352px;
