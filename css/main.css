@@ -187,9 +187,10 @@ p {
 
     .button-products{
         height: 58px;
-        background-color: #d94b4b;
+        background-color: #FFFFFF;
         width: 50%;
         border-radius: 5px;
+        border: 5px #B19580;
         padding: 20px;
     }
 
@@ -343,7 +344,9 @@ p {
     
     .button-products{
         height: 58px;
-        background-color: #d94b4b;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        border: 5px #B19580;
     }
 
     /* 3. Video */
@@ -1032,7 +1035,7 @@ p {
     
     h2 {
         font-family: 'Eczar', serif;
-        font-size: 200px;
+        font-size: 110px;
         text-align: center;
         height: 120px;
         color: #E2CBAC;
