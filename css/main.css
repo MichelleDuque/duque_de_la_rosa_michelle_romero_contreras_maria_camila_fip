@@ -183,6 +183,7 @@
         background-image: url(../images1/mobile\ 3.beer\ ad\ 2\ home\ page.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     #text-history{
         height: 215px;
@@ -203,8 +204,10 @@
     /* 6. Footer */
 
     footer{
-        height: 727px;
-        background-color: blanchedalmond;
+        height: 877px;
+        background-image: url(../images1/mobile\ Footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         align-items: center;
     }
     #nav-footer{
@@ -302,6 +305,7 @@
     }
     #history-title{
         height: 45px;
+
     }
     #history-image{
         height: 530px;
@@ -310,7 +314,7 @@
         background-size: cover;
     }
     #text-history{
-        height: 341px;
+        height: 147px;
     }
     #button-history{
         height: 77px;
@@ -320,7 +324,10 @@
 
     footer{
         height: 634px;
-        background-color: blanchedalmond;
+        background-image: url(../images1/mobile\ Footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     #nav-footer{
         height: 42px;
@@ -520,8 +527,11 @@
 
     footer{
         height: 481px;
-        background-color: blanchedalmond;
-    }
+        background-image: url(../images1/1200\ footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }   
     #nav-footer{
         height: 65px;
         display: flex;
@@ -722,6 +732,7 @@
         background-image: url(../images1/1920\ 3.beerad2home\ page.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: left;
     }
     #text-history{
         height: 352px;
@@ -734,7 +745,10 @@
 
     footer{
         height: 651px;
-        background-color: blanchedalmond;
+        background-image: url(../images1/1920\ footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     #nav-footer{
         height: 104px;
