@@ -204,10 +204,11 @@
     /* 6. Footer */
 
     footer{
-        height: 877px;
-        background-image: url(../images1/mobile\ Footer.jpg);
+        height: 666px;
+        background-image: url(../images1/Footer\ 768_mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         align-items: center;
     }
     #nav-footer{
@@ -324,7 +325,7 @@
 
     footer{
         height: 634px;
-        background-image: url(../images1/mobile\ Footer.jpg);
+        background-image: url(../images1/Footer\ 768_mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -526,7 +527,7 @@
     /* 6. Footer */
 
     footer{
-        height: 481px;
+        height: 510px;
         background-image: url(../images1/1200\ footer.jpg);
         background-repeat: no-repeat;
         background-size: cover;
