@@ -11,7 +11,7 @@
     /* 1. Main Nav */
 
     #main-header{
-        background-color: #E09026;
+        background-color: #F2F2F2;
         height: 83px;
     }
 
@@ -102,7 +102,9 @@
     }
     #hero-con{
         height: 805px;
-        background-color: #822021;
+        background-image: url(../images1/mobile\ 1.Banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         align-items: center;
     }
 
@@ -122,7 +124,9 @@
 
     #products{
         height: 1792px;
-        background-color: #208281;
+        background-image: url(../images1/mobile\ 2.product_backgrnd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         align-items: center;
     }
     #products h2{
@@ -265,7 +269,9 @@
 
     #products{
         height: 1144px;
-        background-color: #208281;
+        background-image: url(../images1/768\ 2.product_backgrnd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #product-title{
         height: 88px;
@@ -357,7 +363,7 @@
     /* 1. Main Nav */
 
     #main-header{
-        background-color: #E09026;
+        background-color: #F2F2F2;
         height: 111px;
     }
 
@@ -439,14 +445,18 @@
     }
     #hero-con{
         height: 800px;
-        background-color: #822021;
+        background-image: url(../images1/1200\ 1.banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /* 3. Products */
 
     #products{
         height: 1753px;
-        background-color: #208281;
+        background-image: url(../images1/1200\ 2.product_backgrnd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #product-title{
         height: 136px;
@@ -665,14 +675,18 @@
     }
     #hero-con{
         height: 1594px;
-        background-color: #822021;
+        background-image: url(../images1/1920\ 1.Banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /* 2. Products */
 
     #products{
         height: 2063px;
-        background-color: #208281;
+        background-image: url(../images1/1920\ 2.product_backgrnd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #product-title{
         height: 136px;
