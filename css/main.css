@@ -151,14 +151,40 @@ p {
         margin-top: 10px;
         margin-bottom:10px;
     }
-    .box-products{
-        height: 383px;
-        background-color: brown;
+    .box-products1{
+        height: 300px;
+        background-image: url(../images1/320almond\ -beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100%;
         border-radius: 5px;
         margin-bottom: 25px;  
         padding: 20px;
     }
+    .box-products2{
+        height: 300px;;
+        background-image: url(../images1/320hazelnut-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 25px;  
+        padding: 20px;
+    }
+    .box-products3{
+        height: 300px;;
+        background-image: url(../images1/320cashwes-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 25px;  
+        padding: 20px;
+    }
+
     .button-products{
         height: 58px;
         background-color: #d94b4b;
@@ -293,10 +319,29 @@ p {
     #product-title{
         height: 88px;
     }
-    .box-products{
+    .box-products1{
         height: 294px;
-        background-color: brown;
+        background-image: url(../images1/1200almond\ -beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+    .box-products2{
+        height: 294px;
+        background-image: url(../images1/1200hazelnut-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-products3{
+        height: 294px;
+        background-image: url(../images1/1200cashwes-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
     .button-products{
         height: 58px;
         background-color: #d94b4b;
@@ -477,7 +522,7 @@ p {
     /* 3. Products */
 
     #products{
-        height: 1753px;
+        height: 1221px;
         background-image: url(../images1/1200\ 2.product_backgrnd.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -487,7 +532,24 @@ p {
     }
     .box-products{
         height: 451px;
-        background-color: brown;
+        background-image: url(../images1/1200almond\ -beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-products2{
+        height: 294px;
+        background-image: url(../images1/1200hazelnut-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-products3{
+        height: 294px;
+        background-image: url(../images1/1200cashwes-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .button-products{
         height: 90px;
@@ -722,8 +784,26 @@ p {
         height: 136px;
     }
     .box-products{
-        height: 451px;
-        background-color: brown;
+        height: 249px;
+        background-image: url(../images1/1920almond\ -beer.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-products2{
+        height: 249px;
+        background-image: url(../images1/1920hazelnut-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-products3{
+        height: 249px;
+        background-image: url(../images1/1920cashwes-beer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     }
     .button-products{
         height: 125px;
