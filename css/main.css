@@ -1,14 +1,4 @@
-h1, h2 {
-    font-family: 'Eczar', serif;
-    font-size: 30px;
-}
 
-p {
-    font-family: 'Cabin', sans-serif;
-    font-size: 20px;
-}
-
-@media screen and (min-width:320px) {
 
     /* CSS Guide
     1. Main Nav
@@ -106,16 +96,15 @@ p {
     }
 
     /* 2. Hero Image */
-
-    #hero-image{
-        height: 529px;
-    }
     #hero-con{
-        height: 805px;
-        background-image: url(../images1/mobile\ 1.Banner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 811px;
         align-items: center;
+        background: url(../images/beer_at_night.jpg) no-repeat center;
+        background-position-x: -430px;
+    }
+    
+    #hero-image{
+        display: none;
     }
 
     h2 {
@@ -133,15 +122,29 @@ p {
     /* 3. Products */
 
     #products{
-        height: 1792px;
-        background-image: url(../images1/mobile\ 2.product_backgrnd.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 1728px;
+        background: url(../images/product_backgrnd.jpg) no-repeat center;
         align-items: center;
     }
     #products h2{
         height: 88px;
     }
+
+    #product-title{
+        height: 135px;
+        display: flex;
+        padding: 0;
+        margin: auto;
+        align-items: center;
+
+    }
+
+    #product-title h2{
+        font-size: 65px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #707070;
+    }
+
     .product-complete{
         display: flex;
         flex-direction: column;
@@ -151,56 +154,37 @@ p {
         margin-top: 10px;
         margin-bottom:10px;
     }
-    .box-products1{
+
+    .box-products{
         height: 231px;
-        background-image: url(../images1/320almond_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color: brown;
         width: 100%;
         border-radius: 5px;
         margin-bottom: 25px;  
-        padding: 20px;
-    }
-    .box-products2{
-        height: 231px;
-        background-image: url(../images1/320hazelnut_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        border-radius: 5px;
-        margin-bottom: 25px;  
-        padding: 20px;
-    }
-    .box-products3{
-        height: 231px;
-        background-image: url(../images1/320cashwes-beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        border-radius: 5px;
-        margin-bottom: 25px;  
-        padding: 20px;
     }
 
     .button-products{
-        height: 58px;
+        height: 78px;
         background-color: #FFFFFF;
-        width: 50%;
-        border-radius: 5px;
-        border: 5px #B19580;
-        padding: 20px;
+        width: 85%;
+        border: 5px solid #B19580;;
+        border-radius: 40px;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #B19580;
+        display: flex;
+        align-items: center;
+        justify-content:center;
     }
 
     /* 4. Video */
 
     #video-box{
+        height: 688px;
         padding: 0px;
     }
     #video-full{
-        height: 775px;
+        height: 688px;
         margin: 0px;
         padding: 20px;
     }
@@ -209,69 +193,182 @@ p {
 
     #history{
         background-color: #F2F2F2;
-        height: 977px;
+
+        height: 1222px;
         align-items: center;
     }
     #history-title{
-        height: 81px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        background-color: #06113C;
     }
+
+    #history-title h2{
+        font-size: 40px;
+        font-family: 'Eczar', serif;
+        text-align: right;
+    }
+
     #history-image{
-        height: 299px;
-        background-image: url(../images1/mobile\ 3.beer\ ad\ 2\ home\ page.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        height: 317px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
     #text-history{
-        height: 215px;
-        background-color: bisque;
-        width: 100%;
+        height: 147px;
+        display: flex;
+        align-items: center;
         margin-bottom: 20px;
-        border-radius: 5px;
         padding: 20px;
     }
-    #button-history{
-        height: 49px;
-        background-color: bisque;
-        width: 50%;
-        border-radius: 5px;
-        padding: 20px;
+
+    #text-history h3{
+        text-align: right;
+        font-size: 30px;
+        font-family: 'Cabin', sans-serif;
     }
+
 
     /* 6. Footer */
 
     footer{
         height: 666px;
-        background-image: url(../images1/Footer\ 768_mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: url(../images/beeratnight_B&W.jpg) no-repeat center;
+        background-position-x: -805px;
         align-items: center;
     }
+
+    ul li {
+        list-style: none;
+        display:inline;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
     #nav-footer{
         height: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    #nav-footer ul{
+        padding: 0;
+    }
+
+    #nav-footer ul li{
+        padding: 10px;
+    }
+
+    #nav-footer ul a{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+    }
+
+
     #footer-newsletter{
-        height: 49px;
+        height: 27px;
+        display: flex;
+        padding: 0;
+        align-items: center;
     }
 
     #footer-newsletter h2{
-        color: #208281;;
+        color: #707070;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     #signup-footer{
         height: 49px;
+        display: flex;
+        padding: 0;
     }
+
+    #signup-footer form {
+        background-color: #FFFFFF;
+        border: 1px solid #707070;
+        width: 100%;
+     }
+
+    #form-footer input{
+        width: 100%;
+        height: 100%;
+        padding-left: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: #949494;
+    }
+
     #button-footer{
         height: 49px;
+        display: flex;
+        align-items: center;
+        padding: 0;
     }
+
+    #button-footer-send{
+        height: 49px;
+        background-color: #707070;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        border: none;
+        width: 100%;
+    }
+
     #text-footer{
         height: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
+
+    #text-footer h2{
+        font-size: 16.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+    }
+
     .socialmedia-footer{
         height: 50px;
     }
+
+    #instagram, #facebook, #whatsapp{
+        display: flex;
+        align-content: center;
+        border-radius: 50%;
+        padding: 0px 0px 0px 0px;
+    }
+
     #terms-footer{
-        height: 48px;
+        height: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #terms-footer ul{
+        padding: 0;
+    }
+
+    #terms-footer ul a{
+        font-size: 11px;
+        color: #FFFFFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }    
+
+    #contact_footer {
+        display: none;
+    }
+
+    #gallery_footer{
+        display: none;
     }
 
     /* Contact us */
@@ -289,82 +386,84 @@ p {
     #contact-image{
         height: 450px;
     }
-}
+
 
 
 @media screen and (min-width:768px) {
 
     /* CSS Guide
     1. Main Nav
-    2. Products
-    3. Video
-    4. History
-    5. Footer */
+    2. Hero Image
+    3. Products
+    4. Video
+    5. History
+    6. Footer */
 
     /* 1. Main Nav */
 
-    #main-logo{
-        order: -1;
+    #burger-nav input:checked ~ #burger-con {
+        transform: translateX(-60);
+        width: 720px;
+    }
+
+    /* 2. Hero Image*/
+
+    #hero-con{
+        height: 579px;
+        align-items: center;
+        background: url(../images/beer_at_night_home_page.jpg) no-repeat center;
     }
 
 
-
-    /* 2. Products */
+    /* 3. Products */
 
     #products{
-        height: 1144px;
-        background-image: url(../images1/768\ 2.product_backgrnd.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 1301px;
     }
     #product-title{
-        height: 88px;
+        height: 99px;
     }
-    .box-products1{
-        height: 249px;
-        background-image: url(../images1/1200almond_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+
+    #product-title h2{
+        font-size: 110px;
+        color: #252525;
     }
-    .box-products2{
+
+    .box-products{
         height: 249px;
-        background-image: url(../images1/1200hazelnut_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .box-products3{
-        height: 249px;
-        background-image: url(../images1/1200cashwes-beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .button-products{
-        height: 58px;
-        background-color: #FFFFFF;
-        border-radius: 5px;
-        border: 5px #B19580;
+        height: 78px;
+        width: 100%;
+    }
+
+    #button-products-3{
+        width: 80%;
     }
 
     /* 3. Video */
 
     #video-full{
-        height: 788px;
+        height: 688px;
     }
 
     /* 4. History */
 
     #history{
-        background-color: #F2F2F2;
-        height: 1200px;
+        height: 1318px;
     }
     #history-title{
-        height: 45px;
-
+        height: 184px;
     }
+
+    #history-title h2{
+        font-size: 70px;
+    }
+
     #history-image{
         height: 530px;
         background-image: url(../images1/768\ \ 3.beer\ ad\ 2\ home\ page.jpg);
@@ -374,40 +473,97 @@ p {
     #text-history{
         height: 147px;
     }
+
+    #text-history h3{
+        font-size: 40px;
+        color: #252525;
+    }
+
     #button-history{
-        height: 77px;
+        width: 70%;
     }
 
     /* 5. Footer */
 
     footer{
         height: 634px;
-        background-image: url(../images1/Footer\ 768_mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: url(../images/beeratnight_B&W_tablet.jpg) no-repeat center;
     }
+
+    #gallery_footer{
+        display: block;
+    }
+
+    #contact_footer{
+        display: block;
+    }
+
     #nav-footer{
         height: 42px;
+        display: flex;
+        padding: 0;
+        justify-content: start;
     }
+
+
+    #nav-footer li{
+        display:inline;
+    }
+
+    #nav-footer li{
+        padding-left: 0px;
+    }
+
+    #nav-footer li a{
+        font-size: 19px;
+    }
+
+
     #footer-newsletter{
         height: 42px;
     }
+
+    #footer-newsletter h2{
+        font-size: 17px;
+    }
     #signup-footer{
         height: 48px;
+        
     }
+
+    #signup-footer input{
+        font-size: 17px;
+     }
+    
     #button-footer{
         height: 41px;
     }
     #text-footer{
         height: 41px;
     }
+
+    #text-footer h2{
+        font-size: 13px;
+    }
+
     .socialmedia-footer{
         height: 42px;
     }
+
+    #instagram, #facebook, #whatsapp{
+        padding: 0px 0px 0px 2px;
+    }
+
     #terms-footer{
         height: 42px;
+        justify-content: end;
     }
+
+    #terms-footer ul a{
+        font-size: 19px;
+        padding-left: 15px;
+    }
+
 
      /* Contact us */
 
@@ -434,8 +590,8 @@ p {
     /* 1. Main Nav */
 
     #main-header{
-        background-color: #F2F2F2;
-        height: 111px;
+        background-color: #E09026;
+        height: 110px;
     }
 
     #burger-nav{
@@ -443,6 +599,7 @@ p {
     }
 
     #main-logo{
+        order: -1;
         height: 111px;
         display: flex;
         align-items: center;
@@ -516,47 +673,29 @@ p {
     }
     #hero-con{
         height: 800px;
-        background-image: url(../images1/1200\ 1.banner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        background: url(../images/beer_at_night_1200.jpg) no-repeat center;
     }
 
     /* 3. Products */
 
     #products{
-        height: 1221px;
-        background-image: url(../images1/1200\ 2.product_backgrnd.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 763px;
+        background: url(../images/product_backgrnd_1200.jpg) no-repeat center;
     }
     #product-title{
         height: 136px;
     }
-    .box-products1{
-        height: 310px;
-        background-image: url(../images1/1200almond_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .box-products{
+        height: 248px;
+        background-color: brown;
     }
-    .box-products2{
-        height: 310px;
-        background-image: url(../images1/1200hazelnut_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .box-products3{
-        height: 310px;
-        background-image: url(../images1/1200cashwes-beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
+
     .button-products{
         height: 90px;
-        background-color: #d94b4b;
+    }
+
+    #button-products-3{
+        width: 100%;
     }
 
     #title-product h2{
@@ -574,26 +713,30 @@ p {
     /* 4. Video */
 
     #video-full{
-        height: 972px;
+        height: 688px;
     }
 
     /* 5. History */
 
     #history{
-        background-color: #F2F2F2;
-        height: 891px;
+        height: 662px;
+        grid-row: 1/3;
     }
     #history-title{
-        height: 112px;
+        height: 184px;
+        grid-row: 1/2;
     }
     #history-image{
-        height: 548px;
-        background-image: url(../images1/1200\ 3.beer_ad_2_homePage.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 455px;
+        grid-row: 1/3;
     }
+
+    .product-complete{
+        grid-row: 2/3;
+    }
+
     #text-history{
-        height: 409px;
+        height: 147px;
     }
     #button-history{
         height: 90px;
@@ -602,42 +745,28 @@ p {
     /* 6. Footer */
 
     footer{
-        height: 510px;
-        background-image: url(../images1/1200\ footer.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }   
+        height: 481px;
+        background: url(../images/beeratnight_B&W_1200.jpg) no-repeat center;
+    }
     #nav-footer{
         height: 65px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 0;
     }
 
-    #nav-footer ul{
-        padding: 0;
-    }
     #nav-footer ul li {
-        display:inline;
         font-size: 20px;
-        margin-right: 35px;
      } 
 
      #nav-footer ul li:first-child{
         padding-left: 0px;
      }
-     
-    #nav-footer ul li a {
-        color: #208281;
-     }
 
     #footer-newsletter{
         height: 65px;
     }
-
+    
     #footer-newsletter h2{
+        display: flex;
+        align-items: center;
         font-size: 20px;
     }
 
@@ -702,23 +831,11 @@ p {
     }
     #terms-footer{
         height: 65px;
-        display: flex;
-        justify-content: flex-start;
-        padding: 0;
     }
 
-    #terms-footer ul{
-        padding: 0;
-    }
-
-    #terms-footer ul li {
-        display:inline;
-        font-size: 20px;
-        margin-right: 60px;
-     }
     
-     #terms-footer ul li a {
-        color: #208281;
+    #terms-footer ul li {
+        font-size: 20px;
      }
     
 
@@ -750,8 +867,17 @@ p {
 
     /* 1. Main Nav */
 
+    #main-header{
+        background-color: #E09026;
+        height: 127px;
+    }
+
+    #main-nav{
+        height: 127px;
+    }
+
     #main-logo{
-        height: 111px;
+        height: 127px;
         display: flex;
         align-items: center;
         padding: 0;
@@ -761,88 +887,79 @@ p {
         width: 200%;
     }
 
+    #main-icon1{
+        height: 127px;
+    }
+
+    #main-icon2{
+        height: 127px;
+    }
+
     
 
     /* 2. Hero Image */
 
-    #hero-image{
-        height: 1299px;
-    }
     #hero-con{
-        height: 1594px;
-        background-image: url(../images1/1920\ 1.Banner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+
+        height: 800px;
+        background: url(../images/DrNut_Beer-Homepage.jpg) no-repeat center;
+        background-size: contain;
     }
 
     /* 2. Products */
 
     #products{
-        height: 2063px;
-        background-image: url(../images1/1920\ 2.product_backgrnd.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 1221px;
+        background: url(../images/product_backgrnd_1920.jpg) no-repeat center;
     }
     #product-title{
-        height: 136px;
+        height: 158px;
     }
-    .box-products1{
+    .box-products{
         height: 398px;
-        background-image: url(../images1/1920almond_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .box-products2{
-        height: 398px;
-        background-image: url(../images1/1920hazelnut_beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .box-products3{
-        height: 398px;
-        background-image: url(../images1/1920cashwes-beer.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+        background-color: brown;
+
     }
     .button-products{
         height: 125px;
-        background-color: #d94b4b;
     }
 
-    /* 3. History */
+    /* 3. Video */
+
+    #video-full{
+        height: 700px;
+    }
+
+    /* 4. History */
     #history{
-        background-color: #F2F2F2;
         height: 1086px;
     }
     #history-title{
-        height: 112px;
+        height: 250px;
+        grid-row: 1/2;
     }
     #history-image{
         height: 813px;
-        background-image: url(../images1/1920\ 3.beerad2home\ page.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left;
-    }
-    #text-history{
-        height: 352px;
-    }
-    #button-history{
-        height: 124px;
+        grid-row: 1/3;
     }
 
-    /* 4. Footer */
+    .product-complete{
+        grid-row: 2/3;
+    }
+
+    #text-history{
+        height: 147px;
+    }
+    #button-history{
+        height: 101px;
+    }
+
+
+    /* 5. Footer */
 
     footer{
         height: 651px;
-        background-image: url(../images1/1920\ footer.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: url(../images/beeratnight_B&W_1920.jpg) no-repeat center;
     }
     #nav-footer{
         height: 104px;
@@ -852,11 +969,6 @@ p {
         padding: 0;
     }
 
-    #nav-footer ul li {
-        display:inline;
-        font-size: 22px;
-        margin-right: 35px;
-     } 
      
     #nav-footer ul li a {
         color: #208281;
@@ -864,8 +976,6 @@ p {
 
     #footer-newsletter{
         height: 104px;
-        padding-left: 0;
-        display: flex;
     }
 
     #footer-newsletter h2{
@@ -908,13 +1018,10 @@ p {
 
     #terms-footer{
         height: 104px;
-        display: flex;
-        align-items: center;
     }
 
     #terms-footer ul li {
         font-size: 22px;
-        margin-right: 46px;
      }
 
      /* Contact us */
@@ -933,19 +1040,18 @@ p {
 }
 
 
- /* Product */
+ /* Product Website */
 
- @media screen and (min-width:320px) {
     #product-hero{
-        background-color: brown;
-        height: 1251px;
+        background-image: linear-gradient(to right top, #822021, #973324, #aa4725, #bd5c26, #cd7226, #d48231, #da913d, #e1a04a, #e2ab63, #e2b67b, #e2c193, #e2cbac);
+        height: 900px;
         align-items: center;
     }
 
 
     #title-product{
         height: 219px;
-        background-color: #E09026;
+        /* background-color: #E09026; */
         margin-bottom: 20px;
         border-radius: 5px;
         padding: 40px;
@@ -957,39 +1063,43 @@ p {
 
     #text-product{
         height: 115px;
-        background-color: #E09026;
+        /* background-color: #E09026; */
         margin-bottom: 20px;
         border-radius: 5px;
         padding: 30px;
     }
     
     #product-image{
-        height: 599px;
+        height: 300px;
         margin-bottom: 70px;
     }
 
     #product-details{
         height: 2600px;
         background-color: #208281;
-        align-items: center;
     }
 
     #product-details-box-1{
-        height: 255px;
+        height: 130px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
     }
 
     #product-details-box-2{
         height: 1732px;
+        margin-bottom: 50px;
     }
 
     #product-details-box-2 h3{
         text-align: center;
     }
- }
+
 
  @media screen and (min-width:768px) {
     #product-hero{
-        height: 768px;
+        height: 570px;
     }
 
     .product-box{
@@ -1013,21 +1123,28 @@ p {
     }
 
     #product-image{
-        height: 478px;
+        height: 300px;
         margin-bottom: 0px;
+        display: flex;
+        align-items: center;
     }
 
     #product-details{
-        height: 2315px;
+        height: 1215px;
 
     }
 
     #product-details-box-1{
-        height: 505px;
+        height: 380px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-top: 50px;
     }
 
     #product-details-box-2{
         height: 700px;
+        padding-top: 100px;
     }
  }
 
@@ -1057,10 +1174,20 @@ p {
         height: 480px;
     }
 
+    #product-details{
+        height: 1115px;
+
+    }
+
     #product-details-box-1{
         height: 555px;
         display: flex;
         align-items: center;
+        margin-top: 50px;
+    }
+
+    #product-details-box-2{
+        margin-bottom: 270px;
     }
 
     #title-product{
@@ -1111,8 +1238,8 @@ p {
 
     #product-details-box-1{
         height: 549px;
-        margin-bottom: 250px;
         margin-top: 70px;
+        margin-bottom: 120px;
     }
 
     #product-details-box-2{
