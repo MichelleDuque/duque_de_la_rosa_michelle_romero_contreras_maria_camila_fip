@@ -110,7 +110,7 @@
                         <div id="process2" class="flex-child">   
                             <a href="#lightbox" data-member="malting" class="bgImg">
                             <div class="sprite" id="malting"></div>
-                            <img srcset="images/Artboard3-mobile.svg 320px, images/beerprocess-02.svg 768px" src="images/beerprocess-02.svg" alt="malting" class="size-process" id="malting_img">
+                            <img src="images/beerprocess-02.svg" alt="malting" class="size-process" id="malting_img">
                             </a>
                         </div>
                         </div>  
@@ -118,7 +118,7 @@
                             <div class="flex-child">
                                 <a href="#lightbox"  data-member="fermentation" class="bgImg">
                                     <div class="sprite" id="fermentation"></div>
-                                    <img srcset="images/Artboard5-mobile.svg 320px, images/beerprocess_Artboard1-05.svg 768px" src="images/beerprocess_Artboard1-05.svg" alt="fermetation" id="fermetation_img">
+                                    <img src="images/beerprocess_Artboard1-05.svg" alt="fermetation" id="fermetation_img">
                                 </a>
                             </div>
                             <div class="flex-child">
@@ -133,13 +133,7 @@
                         <div>
                             <a href="#lightbox" data-member="aging" class="bgImg">
                                 <div class="sprite" id="aging"></div>
-                                <img srcset="images/Artboard7-mobile.svg 320w,
-                                images/beerprocess-04.svg 768w,
-                                images/beerprocess-04.svg 1024w"
-                                sizes="(max-width: 320px) 280px,
-                               (max-width: 768px) 720px,
-                               1024px" 
-                               src="images/beerprocess-04.svg" alt="aging" id="aging_img">
+                                <img src="images/beerprocess-04.svg" alt="aging" id="aging_img">
                             </a>
                         </div>
                 </div>
@@ -160,8 +154,10 @@
         
         <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-4" id="footer-newsletter"><h2>Newsletter</h2></div>
         <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6" id="signup-footer">
-            <label for="email" class="hidden">Email Address: </label>
-            <input type="email" id="email" name="email" placeholder="Your email here"></div>
+            <form action="form.php" method="post">
+                <label for="email" class="hidden">Email Address: </label>
+                <input type="email" id="email" name="email" placeholder="Your email here"></div>
+            </form>
         <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8" id="button-footer">
             <button id="button-footer-send">SEND</button>
         </div>

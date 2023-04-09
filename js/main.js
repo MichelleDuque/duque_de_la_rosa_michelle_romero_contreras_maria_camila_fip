@@ -28,17 +28,17 @@ bioLinks.forEach(link => link.addEventListener("click", getHeroData));
 closeLightbox.addEventListener("click", backtoImage);
 
 
-function checkingImage (){
-    if (screen.width >= 768 ) {
-        document.querySelector('#beer_img').src = "images/beerprocess-03.svg";
-        document.querySelector('#mashing_img').src = "images/beerprocess_Artboard1-01.svg";
-    } else {
-        document.querySelector('#beer_img').src = "images/Artboard1-mobile.svg";
-        document.querySelector('#mashing_img').src = "images/Artboard4-mobile.svg";
-    }
-}
+// function checkingImage (){
+//     if (screen.width >= 768 ) {
+//         document.querySelector('#beer_img').src = "images/beerprocess-03.svg";
+//         document.querySelector('#mashing_img').src = "images/beerprocess_Artboard1-01.svg";
+//     } else {
+//         document.querySelector('#beer_img').src = "images/Artboard1-mobile.svg";
+//         document.querySelector('#mashing_img').src = "images/Artboard4-mobile.svg";
+//     }
+// }
 
-checkingImage()
+// checkingImage()
 
 
 
