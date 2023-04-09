@@ -11,7 +11,7 @@
     /* 1. Main Nav */
 
     #main-header{
-        background-color: #E09026;
+        background-color: #F2F2F2;
         height: 83px;
     }
 
@@ -154,6 +154,7 @@
         margin-top: 10px;
         margin-bottom:10px;
     }
+
     .box-products{
         height: 231px;
         background-color: brown;
@@ -161,6 +162,7 @@
         border-radius: 5px;
         margin-bottom: 25px;  
     }
+
     .button-products{
         height: 78px;
         background-color: #FFFFFF;
@@ -191,6 +193,7 @@
 
     #history{
         background-color: #F2F2F2;
+
         height: 1222px;
         align-items: center;
     }
@@ -432,6 +435,7 @@
         align-items: center;
         justify-content: center;
     }
+    
     .button-products{
         height: 78px;
         width: 100%;
@@ -461,10 +465,13 @@
     }
 
     #history-image{
-        height: 389px;
+        height: 530px;
+        background-image: url(../images1/768\ \ 3.beer\ ad\ 2\ home\ page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #text-history{
-        height: 341px;
+        height: 147px;
     }
 
     #text-history h3{
@@ -893,6 +900,7 @@
     /* 2. Hero Image */
 
     #hero-con{
+
         height: 800px;
         background: url(../images/DrNut_Beer-Homepage.jpg) no-repeat center;
         background-size: contain;
@@ -910,6 +918,7 @@
     .box-products{
         height: 398px;
         background-color: brown;
+
     }
     .button-products{
         height: 125px;
@@ -1143,7 +1152,7 @@
     
     h2 {
         font-family: 'Eczar', serif;
-        font-size: 200px;
+        font-size: 110px;
         text-align: center;
         height: 120px;
         color: #E2CBAC;
