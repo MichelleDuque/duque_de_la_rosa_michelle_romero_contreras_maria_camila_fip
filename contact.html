@@ -18,21 +18,42 @@
     <h1 class="hidden">Dr Nut Official Website</h1>
     <header class="grid-con" id="main-header">
         <nav class="box col-span-full m-col-start-5 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-4 xl-col-end-10" id="main-nav">
-            <h2 class="hidden">Header Navigation</h2> Nav
+            <h2 class="hidden">Header Navigation</h2> 
+            <ul>
+                <li> <a href="index.html" class="active">Home</a></li>
+                <li> <a href="products.html">Products</a></li>
+                <li> <a href="gallery.html">Gallery</a></li>
+                <li> <a href="history.html">History</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-5 l-start-end-2 l-col-end-4 xl-col-start-2 xl-col-end-3" id="main-logo">
-            Logo
+        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-3" id="main-logo">
+            <a href="index.html"><img src="images/logo.svg" alt="Logo DR Nuts"></a>
         </div>
 
         <div class="box l-col-start-10 l-col-end-11 box xl-col-start-10 xl-col-end-11" id="main-icon1">
-            Icon 1
-        </div>
-        <div class="box l-col-start-11 l-col-end-12 box xl-col-start-11 xl-col-end-12" id="main-icon2">
-            Icon 2
+            <img src="images/search.svg" alt="Search icon">
         </div>
 
-        <div class="box col-start-4 col-end-4 m-col-start-10 m-col-end-12" id="burger-nav">
-            Bur
+        <div class="box l-col-start-11 l-col-end-12 box xl-col-start-11 xl-col-end-12" id="main-icon2">
+            <img src="images/shop-cart.svg" alt="Shop icon">
+        </div>
+
+        <div class="box col-start-1 col-end-1 m-col-start-2 m-col-end-4" id="burger-nav">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
+                <ul>
+                    <li> <a href="index.html" class="active">Home</a></li>
+                    <li> <a href="products.html">Products</a></li>
+                    <li> <a href="gallery.html">Gallery</a></li>
+                    <li> <a href="history.html">History</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -48,16 +69,42 @@
 
 
     <footer class="grid-con">
-        <nav class="box col-start-1 col-end-4 m-col-start-2 m-col-end-9 l-col-start-2 l-col-end-8 xl-col-start-2 xl-col-end-8" id="nav-footer"><h2 class="hidden">Footer Navigation</h2>Nav</nav>
+        <nav class="box col-span-full m-col-start-2 m-col-end-9 l-col-start-2 l-col-end-8 xl-col-start-2 xl-col-end-8" id="nav-footer"><h2 class="hidden">Footer Navigation</h2>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="products.html">Products</a></li>
+                <li id="gallery_footer"> <a href="gallery.html">Gallery</a></li>
+                <li> <a href="history.html">History</a></li>
+                <li id="contact_footer"> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         
-        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-4" id="footer-newsletter">Newsletter</div>
-        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6" id="signup-footer">Sign Up</div>
-        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8" id="button-footer">Button</div>
-        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12" id="text-footer">Text</div>
-        <div class="box col-start-2 col-end-2 m-col-start-9 m-col-end-9 l-col-start-9 l-col-end-9 xl-col-start-9 xl-col-end-9 socialmedia-footer">IN</div>
-        <div class="box col-start-3 col-end-3 m-col-start-10 m-col-end-10 l-col-start-10 l-col-end-10 xl-col-start-10 xl-col-end-10 socialmedia-footer">FB</div>
-        <div class="box col-start-4 col-end-4 m-col-start-11 m-col-end-11 l-col-start-11 l-col-end-11 xl-col-start-11 xl-col-end-11 socialmedia-footer">WP</div>
-        <div class="box col-start-2 col-end-5 m-col-start-6 m-col-end-12 l-col-start-6 l-col-end-12 xl-col-start-6 xl-col-end-12 socialmedia-footer" id="terms-footer">Terms & Conditions</div>
+        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-4" id="footer-newsletter"><h2>Newsletter</h2></div>
+        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6" id="signup-footer">
+            <form action="form.php" method="post" id="form-footer">
+                <label for="email" class="hidden">Email Address: </label>
+                <input type="email" id="email" name="email" placeholder="Your email here"></div>
+            </form>
+        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8" id="button-footer">
+            <button id="button-footer-send">Send</button>
+        </div>
+        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12" id="text-footer"><h2>STAY IN TOUCH</h2></div>
+        <div class="box col-start-2 col-end-2 m-col-start-9 m-col-end-9 l-col-start-9 l-col-end-9 xl-col-start-9 xl-col-end-9 socialmedia-footer" id="instagram">
+            <img src="images/instagram.svg" alt="Instagram icon">
+        </div>
+        <div class="box col-start-3 col-end-3 m-col-start-10 m-col-end-10 l-col-start-10 l-col-end-10 xl-col-start-10 xl-col-end-10 socialmedia-footer" id="facebook">
+            <img src="images/facebook.svg" alt="Facebook icon">
+        </div>
+        <div class="box col-start-4 col-end-4 m-col-start-11 m-col-end-11 l-col-start-11 l-col-end-11 xl-col-start-11 xl-col-end-11 socialmedia-footer" id="whatsapp">
+            <img src="images/whatsapp.svg" alt="Whatsapp icon">
+        </div>
+        <div class="box col-span-full m-col-start-4 m-col-end-12 l-col-start-6 l-col-end-12 xl-col-start-6 xl-col-end-12 socialmedia-footer" id="terms-footer">
+            <ul>
+            <li> <a href="terms.html">Terms and Conditions</a></li>
+            <li> <a href="policy.html">Privacy Policy</a></li>
+            <li> <a href="copyright.html">&#169; 2023</a></li>
+            </ul>
+        </div>
     </footer>
     <script src="js/main.js"></script>
 </body>
