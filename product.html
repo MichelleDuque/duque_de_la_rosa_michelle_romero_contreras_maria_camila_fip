@@ -5,12 +5,9 @@
     <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2436fc0b94.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">  
     <title>Dr Nut Responsive</title>
     <!-- Link to reset or normalize before main.css
     only choose one -->
@@ -67,7 +64,7 @@
             <div class="col-span-full m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-2 xl-col-end-7 product-box">
                 <div id="title-product">
                     <h2>Dr. Nut</h2>
-                    <h3>Brewing Process</h2>
+                    <h3>Brewing Process</h3>
                 </div>
                 <div id="text-product"><h4>Discover Dr. Nut brewing process</h4></div>
             </div>
@@ -84,6 +81,7 @@
         </section>
 
         <section class="grid-con" id="product-ad">
+            <h2 class="hidden">Advertisment of Dr Nut</h2>
             <div class="col-span-full m-col-span-full l-col-span-full xl-col-span-full" id="ad-image">
             <img
                 sizes="(max-width: 1920px) 100vw, 1920px"
@@ -102,16 +100,14 @@
             <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 characters" id="product-details-box-2">
                 <h3>BREWING PROCESS</h3>   
                 <p>Introducing Dr. Nut Almond, even our company started in New Orleans, USA, a few decades ago. This time we switched heads to Canada, working alongside local producers to discover our process and the way we achieve the best quality.</p>
-                    <div id="">
-                    <div>
-                            <a href="#lightbox" id="photo1" data-member="beer" data-member="bgImg" class="bgImg" >
+                        <div id="image-beer-process">
+                            <a href="#lightbox" id="photo1" data-member="beer" class="bgImg" >
                                 <div class="sprite" id="beer"></div>
                                 <img src="images/beerprocess-03.svg" alt="beer" id="beer_img">
                             </a>
-                         <div>
                         <div class="flex-container">
                         <div id="process1" class="flex-child">
-                            <a href="#lightbox" data-member="mashing" class="bgImg" data-member="bgImg" class="bgImg">
+                            <a href="#lightbox" data-member="mashing" class="bgImg">
                                 <div class="sprite" id="mashing"></div>
                                 <img src="images/beerprocess_Artboard1-01.svg" alt="mashing" class="size-process" id="mashing_img">
                             </a>
@@ -166,8 +162,9 @@
         <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6" id="signup-footer">
             <form action="form.php" method="post" id="form-footer">
                 <label for="email" class="hidden">Email Address: </label>
-                <input type="email" id="email" name="email" placeholder="Your email here"></div>
+                <input type="email" id="email" name="email" placeholder="Your email here">
             </form>
+        </div>
         <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8" id="button-footer">
             <button id="button-footer-send">Send</button>
         </div>
@@ -193,6 +190,7 @@
     
     <!-- lightbox goes here -->
     <section class="lightbox" id="lightbox">
+        <h2 class="hidden">Lighbox of beer process</h2>
         <!-- close button -->
         <a class="lightbox_close">x</a>
         

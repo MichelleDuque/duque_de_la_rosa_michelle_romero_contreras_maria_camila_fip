@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">  
     <title>Dr Nut Responsive</title>
     <!-- Link to reset or normalize before main.css only choose one -->
     <link href="css/normalize.css" rel="stylesheet">
@@ -67,14 +68,15 @@
                 <h2>Products</h2>
             </div>
             <div class="col-span-full m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-5 product-complete">
-                <div class="box-products"><img sizes="(max-width: 1600px) 100vw, 1600px"
+                <div class="box-products"><img sizes="(max-width: 1920px) 100vw, 1920px"
                     srcset="
-                    images/almond-beer.png 200w,
-                    images/almond_beer_tablet.png 754w,
-                    images/almond_beer_tablet.png 1172w,
+                    images/almond-beer,w_320.png 200w,
+                    images/almond_beer_tablet,w_754.png 754w,
+                    images/almond_beer_tablet,w_754.png 1172w,
                     images/almond_beer_1200.png 1600w,
                     images/almond_beer_1920.png 1920w"
-                    src="images/almond-beer.png" alt="Almond Beer"></div>
+                    src="images/almond-beer.png" alt="Almond Beer">
+                </div>
                 <button class="button-products" id="button-products">Discover More</button>
             </div>
             <div class="col-span-full m-col-start-8 m-col-end-12 l-col-start-6 l-col-end-9 xl-col-start-6 xl-col-end-9 product-complete">
@@ -89,12 +91,13 @@
                 <button class="button-products">Discover More</button>
             </div>
             <div class="col-span-full m-col-start-5 m-col-end-10 l-col-start-10 l-col-end-13 xl-col-start-10 xl-col-end-13 product-complete">
-            <div class="box-products"><img srcset="
-                images/hazelnut-beer.png 200w,
-                images/hazelnut_beer_tablet.png 754w,
-                images/hazelnut_beer_tablet.png 1172w,
-                images/hazelnut_beer_1200.png 1200w,
-                images/hazelnut_beer_1920.png 1920w"
+            <div class="box-products"><img sizes="(max-width: 1920px) 100vw, 1920px" 
+                srcset="  
+                images/hazelnut-beer,w_200.png 200w,
+                images/hazelnut_beer_tablet,w_754.png 754w,
+                images/hazelnut_beer_tablet,w_754.png 1172w,
+                images/hazelnut_beer,w_1200.png 1200w,
+                images/hazelnut_beer,w_1920.png 1920w"
                 src="images/hazelnut-beer.png" alt="Hazelnut Beer"></div>
             <button class="button-products" id="button-products-3">Discover More</button>
             </div>
@@ -103,7 +106,7 @@
         <section class="grid-con" id="video-box">
             <h2 class="hidden">Product Video</h2>
             <div id="video-full" class="col-span-full m-col-span-full l-col-span-full xl-col-span-full">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CloYi6vculA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="320" height="688" src="https://www.youtube.com/embed/CloYi6vculA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
 
@@ -113,7 +116,7 @@
         <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-7 l-col-end-12 xl-col-start-7 xl-col-end-12" id="history-title">
             <h2>Looking for a pick-me-up?</h2>
         </div>
-        <div class="box  col-span-full m-col-start-3 m-col-end-11 l-col-start-2 l-col-end-7 xl-col-start-2 xl-col-end-7" id="history-image"><img srcset="
+        <div class="box  col-span-full m-col-start-3 m-col-end-11 l-col-start-2 l-col-end-7 xl-col-start-2 xl-col-end-7" id="history-image"><img sizes="(max-width: 1920px) 100vw, 1920px" srcset="
             images/beer_ad_2_home_page.jpg 200w,
             images/beer_ad_2_tablet.jpg 754w,
             images/beer_ad_2_tablet.jpg 1172w,
@@ -144,8 +147,9 @@
         <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6" id="signup-footer">
             <form action="form.php" method="post" id="form-footer">
                 <label for="email" class="hidden">Email Address: </label>
-                <input type="email" id="email" name="email" placeholder="Your email here"></div>
+                <input type="email" id="email" name="email" placeholder="Your email here">
             </form>
+        </div>
         <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8" id="button-footer">
             <button id="button-footer-send">Send</button>
         </div>
