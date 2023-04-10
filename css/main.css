@@ -6,7 +6,8 @@
     3. Products
     4. Video
     5. History
-    6. Footer */
+    6. Footer 
+    7. Contact Us */
 
     /* 1. Main Nav */
 
@@ -94,7 +95,6 @@
     #main-nav{
         display: none;
     }
-
     /* 2. Hero Image */
     #hero-con{
         height: 811px;
@@ -387,7 +387,7 @@
         display: none;
     }
 
-    /* Contact us */
+    /* 7. Contact us */
 
     #contact-us{
         background: url(../images/320-Contact_Form.jpg) no-repeat center;
@@ -412,7 +412,8 @@
     3. Products
     4. Video
     5. History
-    6. Footer */
+    6. Footer 
+    7. Contact Us */
 
     /* 1. Main Nav */
 
@@ -462,7 +463,21 @@
     }
 
 
-    /* 4. History */
+    /* 4. Video */
+
+    #video-box{
+        height: 768px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe{
+        width: 768px;
+        height: 100%; 
+    }
+
+    /* 5. History */
 
     #history{
         height: 1318px;
@@ -491,7 +506,7 @@
         width: 70%;
     }
 
-    /* 5. Footer */
+    /* 6. Footer */
 
     footer{
         height: 634px;
@@ -573,23 +588,12 @@
     }
 
 
-     /* Contact us */
+     /* 7. Contact us */
 
      #contact-us{
         background: url(../images/768-Contact_Form.jpg) no-repeat center;
     }
 
-    #video-box{
-        height: 768px;
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-    }
-
-    iframe{
-        width: 768px;
-        height: 100%; 
-    }
 
 }
 
@@ -601,7 +605,8 @@
     3. Products
     4. Video
     5. History
-    6. Footer */
+    6. Footer
+    7. Contact Us */
 
     /* 1. Main Nav */
 
@@ -640,6 +645,7 @@
 
     #main-icon1:hover, #main-icon2:hover{
         background-color: #AE2929;
+        cursor: pointer;
     }
 
     #main-nav{
@@ -874,7 +880,7 @@
      }
     
 
-    /* Contact us */
+    /* 7. Contact us */
 
     #contact-us{
         background: url(../images/1200Contact_Form.jpg) no-repeat center;
@@ -888,9 +894,10 @@
 
     1. Main Nav
     2. Hero Image
-    2. Products
-    3. History
-    4. Footer */
+    3. Products
+    4. History
+    5. Footer 
+    6. Contact Us */
 
     /* 1. Main Nav */
 
@@ -932,7 +939,7 @@
         background-size: contain;
     }
 
-    /* 2. Products */
+    /* 3. Products */
 
     #products{
         height: 1221px;
@@ -1046,7 +1053,7 @@
         font-size: 22px;
      }
 
-     /* Contact us */
+     /* 6. Contact us */
 
     #contact-us{
         height: 1281px;
@@ -1056,7 +1063,7 @@
 }
 
 
- /* Product Website */
+ /* Product Website 320 */
 
     #product-hero{
         background-color: #F2F2F2;
@@ -1154,6 +1161,8 @@
         margin-top: 150px;
     }
 
+ /* Product Website 768 */
+
  @media screen and (min-width:768px) {
     #product-hero{
         height: 520px;
@@ -1209,6 +1218,8 @@
     }
 
  }
+
+  /* Product Website 1200 */
 
  @media screen and (min-width:1200px) {
     
@@ -1297,6 +1308,9 @@
         height: 1850px;
     }
  }
+
+ /* Product Website 1920 */
+
  @media screen and (min-width:1920px) {
     #product-hero{
         height: 1106px;
@@ -1356,7 +1370,242 @@
 }
 
 
-/* Contact Website */
+/* lightbox rules here 320*/ 
+
+.lightbox { 
+    width: 100vw; /* vw = viewport width => screen width */
+    height: 100vh; /* vh = viewport height => screen height */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+
+    color: white;
+    font-size: 1.5em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: red; }
+
+.lightbox article {
+    width: 90%;
+    margin-left: 2%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading { text-align: left; }
+
+.lb_text {
+    line-height: 1.1 !important;
+    margin-left: 0;
+}
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target { display: block; }
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+} 
+
+.lb_heading{
+    font-size: 20px;
+}
+
+.lb_text{
+    font-size: 12px;
+}
+
+
+
+#mashing_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#beer_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#malting_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+
+#fermetation_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#boiling_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#aging_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#text-lightbox{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+/* lightbox 768*/ 
+
+@media screen and (min-width:768px) {
+
+.lightbox { 
+    width: 100vw; /* vw = viewport width => screen width */
+    height: 100vh; /* vh = viewport height => screen height */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: red; }
+
+.lightbox article {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.lb_text, .lb_heading { text-align: left; }
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    font-size: 14px;
+}
+
+.lb_heading{
+    font-size: 40px;
+}
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target { display: block; }
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-child {
+    flex: 1;
+} 
+
+
+
+#mashing_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#beer_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#malting_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+
+#fermetation_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#boiling_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#aging_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#text-lightbox{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+}
+
+/* lightbox 1200*/ 
+
+@media screen and (min-width:1200px){
+
+.lb_heading{
+    font-size: 30px;
+}
+
+.lb_text{
+    font-size: 15px;
+}  
+}
+
+/* lightbox 1920*/ 
+
+@media screen and (min-width:1920px){
+
+.lb_heading{
+    font-size: 32px;
+}
+
+.lb_text{
+    font-size: 18px;
+}  
+}
+
+
+/* Contact Website 320 */
 
 
 #contact-form h3{
@@ -1411,6 +1660,8 @@
     width: 50%;
 }
 
+/* Contact Website 1200 */
+
 @media screen and (min-width:1200px) {
 
 
@@ -1436,6 +1687,8 @@
     }
     
 }
+
+/* Contact Website 1920 */
 
 
 @media screen and (min-width:1920px) {
@@ -1471,234 +1724,3 @@
 
 
 
-
-/* * lightbox rules here 320*/ 
-
-    .lightbox { 
-        width: 100vw; /* vw = viewport width => screen width */
-        height: 100vh; /* vh = viewport height => screen height */
-
-        position: fixed;
-        top: 0;
-        left: 0;
-        color: white;
-
-        background-color: rgba(0, 0, 0, 0.85);
-        display: none;
-    }
-
-
-    .lightbox_close {
-        position: relative;
-        top: 20px;
-        left: 95%;
-
-        color: white;
-        font-size: 1.5em;
-
-        text-decoration: none;
-
-        font-weight: bolder;
-        cursor: pointer;
-    }
-
-    .lightbox_close:hover { opacity: 0.5; color: red; }
-
-    .lightbox article {
-        width: 90%;
-        margin-left: 2%;
-        padding-top: 50px;
-    }
-
-    .lb_text, .lb_heading { text-align: left; }
-
-    .lb_text {
-        line-height: 1.1 !important;
-        margin-left: 0;
-    }
-
-    /* turn the lightbox on using the :target pseudo selector */
-    .lightbox:target { display: block; }
-
-
-    .flex-container {
-        display: flex;
-    }
-
-    .flex-child {
-        flex: 1;
-    } 
-
-    .lb_heading{
-        font-size: 20px;
-    }
-
-    .lb_text{
-        font-size: 12px;
-    }
-
-
-
-    #mashing_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #beer_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #malting_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-
-    #fermetation_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #boiling_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #aging_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #text-lightbox{
-        margin-left: 40px;
-        font-size: 20px;
-    }
-
-
-
-
-@media screen and (min-width:768px) {
-
-    .lightbox { 
-        width: 100vw; /* vw = viewport width => screen width */
-        height: 100vh; /* vh = viewport height => screen height */
-
-        position: fixed;
-        top: 0;
-        left: 0;
-        color: white;
-
-        background-color: rgba(0, 0, 0, 0.85);
-        display: none;
-    }
-
-
-    .lightbox_close {
-        position: relative;
-        top: 20px;
-        left: 95%;
-
-        color: white;
-        font-size: 3em;
-
-        text-decoration: none;
-
-        font-weight: bolder;
-        cursor: pointer;
-    }
-
-    .lightbox_close:hover { opacity: 0.5; color: red; }
-
-    .lightbox article {
-        width: 90%;
-        margin-left: 5%;
-    }
-
-    .lb_text, .lb_heading { text-align: left; }
-
-    .lb_text {
-        line-height: 1.6 !important;
-        margin-left: 0;
-        font-size: 14px;
-    }
-
-    .lb_heading{
-        font-size: 40px;
-    }
-
-    /* turn the lightbox on using the :target pseudo selector */
-    .lightbox:target { display: block; }
-
-
-    .flex-container {
-        display: flex;
-        align-items: center;
-    }
-
-    .flex-child {
-        flex: 1;
-    } 
-
-
-
-    #mashing_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #beer_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #malting_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-
-    #fermetation_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #boiling_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #aging_img:hover{
-        border: solid #E09026;
-        opacity: 0.5;
-    }
-
-    #text-lightbox{
-        margin-left: 40px;
-        font-size: 20px;
-    }
-
-}
-
-
-@media screen and (min-width:1200px){
-
-    .lb_heading{
-        font-size: 30px;
-    }
-
-    .lb_text{
-        font-size: 15px;
-    }  
-}
-
-@media screen and (min-width:1920px){
-
-    .lb_heading{
-        font-size: 32px;
-    }
-
-    .lb_text{
-        font-size: 18px;
-    }  
-}
