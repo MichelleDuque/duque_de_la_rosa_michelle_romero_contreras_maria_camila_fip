@@ -50,7 +50,7 @@
         display: block;
         position: absolute;
         transform: translateX(-60);
-        background-color: #822021;
+        background-color: #B19580;
         width: 300px;
     }
     
@@ -252,11 +252,11 @@
     }
 
     #nav-footer ul li{
-        padding: 10px;
+        padding: 5px;
     }
 
     #nav-footer ul a{
-        font-size: 18px;
+        font-size: 10px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #FFFFFF;
     }
@@ -288,7 +288,7 @@
 
     #form-footer input{
         width: 100%;
-        height: 100%;
+        height: 49px;
         padding-left: 15px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 14px;
@@ -417,6 +417,7 @@
         font-size: 110px;
         color: #252525;
     }
+
 
     .box-products{
         height: 249px;
@@ -749,6 +750,7 @@
     }
 
     #signup-footer input{
+        height: 65px;
         background-color: #FFFFFF;
         border: 1px solid #707070;
         font-size: 20px;
@@ -765,13 +767,12 @@
 
     #button-footer-send{
         height: 65px;
-        background-color: #208281;
         border: none;
         width: 100%;
     }
 
     #button-footer-send:hover {
-        background-color: #498281;
+        background-color: #000808;
      }
      
     #text-footer{
@@ -1000,109 +1001,150 @@
  /* Product Website */
 
     #product-hero{
-        background-image: linear-gradient(to right top, #822021, #973324, #aa4725, #bd5c26, #cd7226, #d48231, #da913d, #e1a04a, #e2ab63, #e2b67b, #e2c193, #e2cbac);
-        height: 900px;
-        align-items: center;
+        background-color: #F2F2F2;
+        height: 826px;
     }
 
 
     #title-product{
-        height: 219px;
-        /* background-color: #E09026; */
-        margin-bottom: 20px;
-        border-radius: 5px;
-        padding: 40px;
-        margin-bottom: 50px;
-        display: flex;
+        height: 250px;
+        /* display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center; */
+    }
+
+    #title-product h2{
+        font-size: 70px;
+        font-family: 'Eczar', serif;
+        color: #252525;
+    }
+
+    #title-product h3{
+        font-size: 40px;
+        font-family: 'Eczar', serif;
+        color: #252525;
     }
 
     #text-product{
         height: 115px;
-        /* background-color: #E09026; */
-        margin-bottom: 20px;
-        border-radius: 5px;
-        padding: 30px;
+    }
+
+    #text-product h4{
+        font-family: 'Cabin', sans-serif;
+        font-size: 35px;
+        color: #B19580;
     }
     
     #product-image{
-        height: 300px;
-        margin-bottom: 70px;
+        height: 286px;
+        padding: 0;
+    }
+
+    #product-image img{
+        width: 100%;
+        height: 100%;
     }
 
     #product-details{
-        height: 2600px;
-        background-color: #208281;
+        height: 1911px;
+        background: url(../images/mobile_brewery.jpg) no-repeat center;
     }
 
-    #product-details-box-1{
-        height: 130px;
-        padding: 0;
+    #product-ad{
+        height: 441px;
+    }
+
+    #ad-image{
+        height: 441px;
         display: flex;
         align-items: center;
-        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #ad-image img{
+        width:100%;
+        object-fit: cover;
+        overflow: hidden;
     }
 
     #product-details-box-2{
-        height: 1732px;
-        margin-bottom: 50px;
+        height: 1911px;
     }
 
     #product-details-box-2 h3{
-        text-align: center;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 50px;
+        padding-left: 14px;
+        margin-top: 140px;
     }
 
+    #product-details-box-2 p{
+        color: #FFFFFF;
+        font-family: 'Cabin', sans-serif;
+        font-size: 30px;
+        padding-left: 14px;
+        margin-top: 170px;
+    }
+
+    #image-beer-process{
+        margin-top: 150px;
+    }
 
  @media screen and (min-width:768px) {
     #product-hero{
-        height: 570px;
+        height: 520px;
+        align-items: center;
     }
 
     .product-box{
-        height: 478px;
+        height: 440px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
 
     #title-product{
-        height: 200px;
-        padding: 0;
-        margin: 0;
-        width: 57%;
+        height: 100px;
+        width: 100%;
     }
 
     #text-product{
         height: 114px;
-        padding: 0;
-        margin: 0;
     }
 
-    #product-image{
-        height: 300px;
-        margin-bottom: 0px;
-        display: flex;
-        align-items: center;
+    #product-image img{
+        height: 359px;
     }
+
 
     #product-details{
-        height: 1215px;
-
-    }
-
-    #product-details-box-1{
-        height: 380px;
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin-top: 50px;
+        height: 2195px;
+        background: url(../images/768_brewery.jpg) no-repeat center;
     }
 
     #product-details-box-2{
-        height: 700px;
-        padding-top: 100px;
+        height: 2195px;
     }
+
+    #product-details-box-2 h3{
+        font-size: 100px;
+        padding-top: 50px;
+    }
+
+    #product-details-box-2 p{
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    #product-ad{
+        height: 613px;
+    }
+
+    #ad-image{
+        height: 613px;
+    }
+
  }
 
  @media screen and (min-width:1200px) {
@@ -1124,7 +1166,8 @@
     }
     
     #product-hero{
-        height: 600px;
+        height: 691px;
+        align-items: center;
     }
 
     .product-box{
@@ -1132,15 +1175,27 @@
     }
 
     #product-details{
-        height: 1115px;
-
+        height: 2195px;
+        background: url(../images/1920_Brewing.jpg) no-repeat center;
     }
 
-    #product-details-box-1{
-        height: 555px;
-        display: flex;
-        align-items: center;
-        margin-top: 50px;
+    #product-details-box-2 h3{
+        margin-top: 20px;
+        font-size: 130px;
+    }
+
+    #product-details-box-2 p{
+        margin-top: 320px;
+        font-size: 50px;
+        margin-bottom: 200px;
+    }
+
+    #product-ad{
+        height: 958px;
+    }
+
+    #ad-image{
+        height: 958px;
     }
 
     #product-details-box-2{
@@ -1150,10 +1205,21 @@
     #title-product{
         font-family: 'Eczar', serif;
         font-size: 40px;
-        height: 300px;
+        height: 100px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+    }
+
+    #title-product h2, h3{
+        text-align: left;
+    }
+
+    #title-product h2{
+        font-size: 100px;
+    }
+
+    #title-product h3{
+        font-size: 40px;
     }
 
     #text-product{
@@ -1161,7 +1227,7 @@
     }
 
     #product-image{
-        height: 505px;
+        height: 393px;
     }
 
     #product-details{
@@ -1170,7 +1236,7 @@
  }
  @media screen and (min-width:1920px) {
     #product-hero{
-        height: 950px;
+        height: 1106px;
     }
 
     .product-box{
@@ -1181,131 +1247,51 @@
         height: 375px;
     }
 
+    #title-product h2{
+        font-size: 120px;
+    }
+
+    #title-product h3{
+        font-size: 50px;
+    }
+
     #text-product{
         height: 128px;
     }
 
+
+    #text-product h4{
+        font-size: 50px;
+    }
+
     #product-image{
-        height: 600px;
+        height: 620px;
     }
 
     #product-details{
-        height: 1756px;
+        height: 2337px;
+        background: url(../images/1920_Brewing.jpg) no-repeat center;
     }
 
-    #product-details-box-1{
-        height: 549px;
-        margin-top: 70px;
-        margin-bottom: 120px;
+    #product-details h3{
+        font-size: 90px;
+        margin-top: 150px;
     }
 
     #product-details-box-2{
-        height: 1274px;
+        height: 2337px;
     }
+
+    #product-ad{
+        height: 1532px;
+    }
+
+    #ad-image{
+        height: 1532px;
+    }
+
 }
 
-
-/* * lightbox rules here */ 
-
-
-
-.lightbox { 
-    width: 100vw; /* vw = viewport width => screen width */
-    height: 100vh; /* vh = viewport height => screen height */
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    color: white;
-
-    background-color: rgba(0, 0, 0, 0.85);
-    display: none;
-}
-
-
-.lightbox_close {
-    position: relative;
-    top: 20px;
-    left: 95%;
-
-    color: white;
-    font-size: 3em;
-
-    text-decoration: none;
-
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.lightbox_close:hover { opacity: 0.5; color: red; }
-
-.lightbox article {
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 50px;
-}
-
-.lb_text, .lb_heading { text-align: left; }
-
-.lb_text {
-    line-height: 1.6 !important;
-    margin-left: 0;
-    padding-top: 2em;
-}
-
-/* turn the lightbox on using the :target pseudo selector */
-.lightbox:target { display: block; }
-
-
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-} 
-
-
-
-#mashing_img:hover{
-    border: solid #E09026;
-    opacity: 0.5;
-}
-
-#beer_img:hover{
-    border: solid #E09026;
-    opacity: 0.5;
-}
-
-#malting_img:hover{
-    border: solid #E09026;
-    opacity: 0.5;
-}
-
-
-#fermetation_img:hover{
-    border: solid #E09026;
-    opacity: 0.5;
-}
-
-#boiling_img:hover{
-    border: solid #E09026;
-    opacity: 0.5;
-}
-
-#aging_img:hover{
-    border: solid #E09026;
-    opacity: 0.5;
-}
-
-#imageprocess{
-    width: 100%;
-}
-
-#text-lightbox{
-    margin-left: 40px;
-    font-size: 20px;
-}
 
 /* Contact Website */
 
@@ -1418,4 +1404,238 @@
     #button-box{
         margin-top: 200px;
     }
+}
+
+
+
+
+/* * lightbox rules here 320*/ 
+
+    .lightbox { 
+        width: 100vw; /* vw = viewport width => screen width */
+        height: 100vh; /* vh = viewport height => screen height */
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: white;
+
+        background-color: rgba(0, 0, 0, 0.85);
+        display: none;
+    }
+
+
+    .lightbox_close {
+        position: relative;
+        top: 20px;
+        left: 95%;
+
+        color: white;
+        font-size: 1.5em;
+
+        text-decoration: none;
+
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .lightbox_close:hover { opacity: 0.5; color: red; }
+
+    .lightbox article {
+        width: 90%;
+        margin-left: 2%;
+        padding-top: 50px;
+    }
+
+    .lb_text, .lb_heading { text-align: left; }
+
+    .lb_text {
+        line-height: 1.1 !important;
+        margin-left: 0;
+    }
+
+    /* turn the lightbox on using the :target pseudo selector */
+    .lightbox:target { display: block; }
+
+
+    .flex-container {
+        display: flex;
+    }
+
+    .flex-child {
+        flex: 1;
+    } 
+
+    .lb_heading{
+        font-size: 20px;
+    }
+
+    .lb_text{
+        font-size: 12px;
+    }
+
+
+
+    #mashing_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #beer_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #malting_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+
+    #fermetation_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #boiling_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #aging_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #text-lightbox{
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .lightbox { 
+        width: 100vw; /* vw = viewport width => screen width */
+        height: 100vh; /* vh = viewport height => screen height */
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: white;
+
+        background-color: rgba(0, 0, 0, 0.85);
+        display: none;
+    }
+
+
+    .lightbox_close {
+        position: relative;
+        top: 20px;
+        left: 95%;
+
+        color: white;
+        font-size: 3em;
+
+        text-decoration: none;
+
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .lightbox_close:hover { opacity: 0.5; color: red; }
+
+    .lightbox article {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .lb_text, .lb_heading { text-align: left; }
+
+    .lb_text {
+        line-height: 1.6 !important;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .lb_heading{
+        font-size: 40px;
+    }
+
+    /* turn the lightbox on using the :target pseudo selector */
+    .lightbox:target { display: block; }
+
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-child {
+        flex: 1;
+    } 
+
+
+
+    #mashing_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #beer_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #malting_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+
+    #fermetation_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #boiling_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #aging_img:hover{
+        border: solid #E09026;
+        opacity: 0.5;
+    }
+
+    #text-lightbox{
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:1200px){
+
+    .lb_heading{
+        font-size: 30px;
+    }
+
+    .lb_text{
+        font-size: 15px;
+    }  
+}
+
+@media screen and (min-width:1920px){
+
+    .lb_heading{
+        font-size: 32px;
+    }
+
+    .lb_text{
+        font-size: 18px;
+    }  
 }
