@@ -49,7 +49,7 @@
     #burger-nav input:checked ~ #burger-con {
         display: block;
         position: absolute;
-        transform: translateX(-60);
+        transform: translateX(-5px);
         background-color: #B19580;
         width: 300px;
     }
@@ -152,10 +152,13 @@
 
     .box-products{
         height: 231px;
-        background-color: brown;
+        /* background-color: brown; */
         width: 100%;
         border-radius: 5px;
         margin-bottom: 25px;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .button-products{
@@ -172,12 +175,21 @@
         justify-content:center;
     }
 
+    .button-products:hover{
+        background-color: #B19580;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
     /* 4. Video */
 
     #video-box{
         height: 688px;
         padding: 0px;
+        display: flex;
+        justify-content: center;
     }
+
 
     /* 5. History */
 
@@ -191,7 +203,6 @@
         height: 90px;
         display: flex;
         align-items: center;
-        background-color: #06113C;
     }
 
     #history-title h2{
@@ -247,6 +258,10 @@
         justify-content: center;
     }
 
+    #nav-footer ul li a:hover{
+        color: #000000;
+    }
+
     #nav-footer ul{
         padding: 0;
     }
@@ -270,7 +285,7 @@
     }
 
     #footer-newsletter h2{
-        color: #707070;
+        color: #ffffff;
         font-size: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -309,6 +324,7 @@
         color: #ffffff;
         border: none;
         width: 100%;
+        cursor: pointer;
     }
 
     #text-footer{
@@ -329,11 +345,17 @@
         height: 50px;
     }
 
+
     #instagram, #facebook, #whatsapp{
         display: flex;
         align-content: center;
         border-radius: 50%;
         padding: 0px 0px 0px 0px;
+    }
+
+    #instagram:hover, #facebook:hover, #whatsapp:hover{
+        width: 130%;
+        cursor: pointer;
     }
 
     #terms-footer{
@@ -352,6 +374,10 @@
         color: #FFFFFF;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }    
+
+    #terms-footer ul a:hover{
+        color: #000000;
+    }
 
     #contact_footer {
         display: none;
@@ -391,7 +417,7 @@
     /* 1. Main Nav */
 
     #burger-nav input:checked ~ #burger-con {
-        transform: translateX(-60);
+        transform: translateX(-5px);
         width: 720px;
     }
 
@@ -553,6 +579,18 @@
         background: url(../images/768-Contact_Form.jpg) no-repeat center;
     }
 
+    #video-box{
+        height: 768px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe{
+        width: 768px;
+        height: 100%; 
+    }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -599,6 +637,11 @@
         height: 111px;
         margin: 0;
     }
+
+    #main-icon1:hover, #main-icon2:hover{
+        background-color: #AE2929;
+    }
+
     #main-nav{
         display: block;
         height: 111px;
@@ -664,7 +707,15 @@
     }
     .box-products{
         height: 248px;
-        background-color: brown;
+        /* background-color: brown; */
+    }
+
+    .box-products img:hover{
+        width: 130%;
+    }
+
+    .box-products:hover{
+        width: 130%;
     }
 
     .button-products{
@@ -686,6 +737,17 @@
     #product-image{
         display: flex;
         align-items: center;  
+    }
+
+    /* 4. Video */
+
+    #video-box{
+        height: 1076px;
+    }
+
+    iframe{
+        width: 1200px;
+        height: 100%; 
     }
 
       
@@ -881,18 +943,13 @@
     }
     .box-products{
         height: 398px;
-        background-color: brown;
+        /* background-color: brown; */
 
     }
     .button-products{
         height: 125px;
     }
 
-    /* 3. Video */
-
-    #video-box{
-        height: 1076px;
-    }
 
     /* 4. History */
     #history{
@@ -933,10 +990,6 @@
         padding: 0;
     }
 
-     
-    #nav-footer ul li a {
-        color: #208281;
-     }
 
     #footer-newsletter{
         height: 104px;
@@ -953,9 +1006,14 @@
         height: 104px;
     }
 
+    #signup-footer input{
+        height: 104px;
+     }
+
     #button-footer-send{
         height: 104px;
     }
+
 
     .socialmedia-footer{
         height: 104px;
@@ -1005,6 +1063,10 @@
         height: 826px;
     }
 
+    #product-hero:hover{
+        background-color: #AE2929;
+    }
+
 
     #title-product{
         height: 250px;
@@ -1052,6 +1114,7 @@
 
     #product-ad{
         height: 441px;
+        cursor: pointer;
     }
 
     #ad-image{

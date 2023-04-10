@@ -31,7 +31,7 @@ html {
 }
 
 .box {
-   background-color: #E2CBAC;
+   /* background-color: #E2CBAC; */
    color: rgb(27, 27, 27);
    border-radius: 5px;
    padding: 20px;
